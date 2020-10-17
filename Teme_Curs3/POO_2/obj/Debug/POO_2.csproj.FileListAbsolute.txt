@@ -1,0 +1,7 @@
+C:\Users\alina\source\repos\POO_2\bin\Debug\POO_2.exe.config
+C:\Users\alina\source\repos\POO_2\bin\Debug\POO_2.exe
+C:\Users\alina\source\repos\POO_2\bin\Debug\POO_2.pdb
+C:\Users\alina\source\repos\POO_2\obj\Debug\POO_2.csprojAssemblyReference.cache
+C:\Users\alina\source\repos\POO_2\obj\Debug\POO_2.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\POO_2\obj\Debug\POO_2.exe
+C:\Users\alina\source\repos\POO_2\obj\Debug\POO_2.pdb

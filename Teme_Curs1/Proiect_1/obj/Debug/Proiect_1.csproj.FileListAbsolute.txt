@@ -1,0 +1,14 @@
+C:\Users\alina\source\repos\Proiect_1\bin\Debug\Proiect_1.exe.config
+C:\Users\alina\source\repos\Proiect_1\bin\Debug\Proiect_1.exe
+C:\Users\alina\source\repos\Proiect_1\bin\Debug\Proiect_1.pdb
+C:\Users\alina\source\repos\Proiect_1\obj\Debug\Proiect_1.csprojAssemblyReference.cache
+C:\Users\alina\source\repos\Proiect_1\obj\Debug\Proiect_1.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\Proiect_1\obj\Debug\Proiect_1.exe
+C:\Users\alina\source\repos\Proiect_1\obj\Debug\Proiect_1.pdb
+C:\Users\alina\source\repos\Teme_Curs1\Proiect_1\bin\Debug\Proiect_1.exe.config
+C:\Users\alina\source\repos\Teme_Curs1\Proiect_1\bin\Debug\Proiect_1.exe
+C:\Users\alina\source\repos\Teme_Curs1\Proiect_1\bin\Debug\Proiect_1.pdb
+C:\Users\alina\source\repos\Teme_Curs1\Proiect_1\obj\Debug\Proiect_1.csprojAssemblyReference.cache
+C:\Users\alina\source\repos\Teme_Curs1\Proiect_1\obj\Debug\Proiect_1.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\Teme_Curs1\Proiect_1\obj\Debug\Proiect_1.exe
+C:\Users\alina\source\repos\Teme_Curs1\Proiect_1\obj\Debug\Proiect_1.pdb

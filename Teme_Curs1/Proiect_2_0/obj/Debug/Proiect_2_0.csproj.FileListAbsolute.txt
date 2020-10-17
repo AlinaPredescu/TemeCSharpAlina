@@ -1,0 +1,7 @@
+C:\Users\alina\source\repos\Proiect_2_0\bin\Debug\Proiect_2_0.exe.config
+C:\Users\alina\source\repos\Proiect_2_0\bin\Debug\Proiect_2_0.exe
+C:\Users\alina\source\repos\Proiect_2_0\bin\Debug\Proiect_2_0.pdb
+C:\Users\alina\source\repos\Proiect_2_0\obj\Debug\Proiect_2_0.csprojAssemblyReference.cache
+C:\Users\alina\source\repos\Proiect_2_0\obj\Debug\Proiect_2_0.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\Proiect_2_0\obj\Debug\Proiect_2_0.exe
+C:\Users\alina\source\repos\Proiect_2_0\obj\Debug\Proiect_2_0.pdb

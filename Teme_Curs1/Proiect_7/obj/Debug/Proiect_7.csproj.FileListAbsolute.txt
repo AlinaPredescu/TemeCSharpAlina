@@ -1,0 +1,7 @@
+C:\Users\alina\source\repos\Proiect_7\bin\Debug\Proiect_7.exe.config
+C:\Users\alina\source\repos\Proiect_7\bin\Debug\Proiect_7.exe
+C:\Users\alina\source\repos\Proiect_7\bin\Debug\Proiect_7.pdb
+C:\Users\alina\source\repos\Proiect_7\obj\Debug\Proiect_7.csprojAssemblyReference.cache
+C:\Users\alina\source\repos\Proiect_7\obj\Debug\Proiect_7.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\Proiect_7\obj\Debug\Proiect_7.exe
+C:\Users\alina\source\repos\Proiect_7\obj\Debug\Proiect_7.pdb

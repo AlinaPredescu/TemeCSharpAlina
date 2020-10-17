@@ -1,0 +1,7 @@
+C:\Users\alina\source\repos\Proiect_3\bin\Debug\Proiect_3.exe.config
+C:\Users\alina\source\repos\Proiect_3\bin\Debug\Proiect_3.exe
+C:\Users\alina\source\repos\Proiect_3\bin\Debug\Proiect_3.pdb
+C:\Users\alina\source\repos\Proiect_3\obj\Debug\Proiect_3.csprojAssemblyReference.cache
+C:\Users\alina\source\repos\Proiect_3\obj\Debug\Proiect_3.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\Proiect_3\obj\Debug\Proiect_3.exe
+C:\Users\alina\source\repos\Proiect_3\obj\Debug\Proiect_3.pdb

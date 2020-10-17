@@ -1,0 +1,7 @@
+C:\Users\alina\source\repos\Proiect_5\bin\Debug\Proiect_5.exe.config
+C:\Users\alina\source\repos\Proiect_5\bin\Debug\Proiect_5.exe
+C:\Users\alina\source\repos\Proiect_5\bin\Debug\Proiect_5.pdb
+C:\Users\alina\source\repos\Proiect_5\obj\Debug\Proiect_5.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\Proiect_5\obj\Debug\Proiect_5.exe
+C:\Users\alina\source\repos\Proiect_5\obj\Debug\Proiect_5.pdb
+C:\Users\alina\source\repos\Proiect_5\obj\Debug\Proiect_5.csprojAssemblyReference.cache

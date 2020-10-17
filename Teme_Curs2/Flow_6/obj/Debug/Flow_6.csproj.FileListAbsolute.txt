@@ -1,0 +1,6 @@
+C:\Users\alina\source\repos\Flow_6\bin\Debug\Flow_6.exe.config
+C:\Users\alina\source\repos\Flow_6\bin\Debug\Flow_6.exe
+C:\Users\alina\source\repos\Flow_6\bin\Debug\Flow_6.pdb
+C:\Users\alina\source\repos\Flow_6\obj\Debug\Flow_6.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\Flow_6\obj\Debug\Flow_6.exe
+C:\Users\alina\source\repos\Flow_6\obj\Debug\Flow_6.pdb

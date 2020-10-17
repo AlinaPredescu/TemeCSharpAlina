@@ -1,0 +1,7 @@
+C:\Users\alina\source\repos\Flow_4\bin\Debug\Flow_4.exe.config
+C:\Users\alina\source\repos\Flow_4\bin\Debug\Flow_4.exe
+C:\Users\alina\source\repos\Flow_4\bin\Debug\Flow_4.pdb
+C:\Users\alina\source\repos\Flow_4\obj\Debug\Flow_4.csprojAssemblyReference.cache
+C:\Users\alina\source\repos\Flow_4\obj\Debug\Flow_4.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\Flow_4\obj\Debug\Flow_4.exe
+C:\Users\alina\source\repos\Flow_4\obj\Debug\Flow_4.pdb

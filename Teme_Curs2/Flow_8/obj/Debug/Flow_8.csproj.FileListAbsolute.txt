@@ -1,0 +1,13 @@
+C:\Users\alina\source\repos\Flow_8\bin\Debug\Flow_8.exe.config
+C:\Users\alina\source\repos\Flow_8\bin\Debug\Flow_8.exe
+C:\Users\alina\source\repos\Flow_8\bin\Debug\Flow_8.pdb
+C:\Users\alina\source\repos\Flow_8\obj\Debug\Flow_8.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\Flow_8\obj\Debug\Flow_8.exe
+C:\Users\alina\source\repos\Flow_8\obj\Debug\Flow_8.pdb
+C:\Users\alina\source\repos\Teme_Curs2\Flow_8\bin\Debug\Flow_8.exe.config
+C:\Users\alina\source\repos\Teme_Curs2\Flow_8\bin\Debug\Flow_8.exe
+C:\Users\alina\source\repos\Teme_Curs2\Flow_8\bin\Debug\Flow_8.pdb
+C:\Users\alina\source\repos\Teme_Curs2\Flow_8\obj\Debug\Flow_8.csprojAssemblyReference.cache
+C:\Users\alina\source\repos\Teme_Curs2\Flow_8\obj\Debug\Flow_8.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\Teme_Curs2\Flow_8\obj\Debug\Flow_8.exe
+C:\Users\alina\source\repos\Teme_Curs2\Flow_8\obj\Debug\Flow_8.pdb

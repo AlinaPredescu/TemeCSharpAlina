@@ -1,0 +1,6 @@
+C:\Users\alina\source\repos\Flow_2\bin\Debug\Flow_2.exe.config
+C:\Users\alina\source\repos\Flow_2\bin\Debug\Flow_2.exe
+C:\Users\alina\source\repos\Flow_2\bin\Debug\Flow_2.pdb
+C:\Users\alina\source\repos\Flow_2\obj\Debug\Flow_2.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\Flow_2\obj\Debug\Flow_2.exe
+C:\Users\alina\source\repos\Flow_2\obj\Debug\Flow_2.pdb

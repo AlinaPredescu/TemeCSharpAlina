@@ -1,0 +1,7 @@
+C:\Users\alina\source\repos\Flow_7\bin\Debug\Flow_7.exe.config
+C:\Users\alina\source\repos\Flow_7\bin\Debug\Flow_7.exe
+C:\Users\alina\source\repos\Flow_7\bin\Debug\Flow_7.pdb
+C:\Users\alina\source\repos\Flow_7\obj\Debug\Flow_7.csprojAssemblyReference.cache
+C:\Users\alina\source\repos\Flow_7\obj\Debug\Flow_7.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\Flow_7\obj\Debug\Flow_7.exe
+C:\Users\alina\source\repos\Flow_7\obj\Debug\Flow_7.pdb
