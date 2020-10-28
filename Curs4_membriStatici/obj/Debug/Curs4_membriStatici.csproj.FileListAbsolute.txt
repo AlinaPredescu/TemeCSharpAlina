@@ -1,0 +1,7 @@
+C:\Users\alina\source\repos\Curs4_membriStatici\bin\Debug\Curs4_membriStatici.exe.config
+C:\Users\alina\source\repos\Curs4_membriStatici\bin\Debug\Curs4_membriStatici.exe
+C:\Users\alina\source\repos\Curs4_membriStatici\bin\Debug\Curs4_membriStatici.pdb
+C:\Users\alina\source\repos\Curs4_membriStatici\obj\Debug\Curs4_membriStatici.csprojAssemblyReference.cache
+C:\Users\alina\source\repos\Curs4_membriStatici\obj\Debug\Curs4_membriStatici.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\Curs4_membriStatici\obj\Debug\Curs4_membriStatici.exe
+C:\Users\alina\source\repos\Curs4_membriStatici\obj\Debug\Curs4_membriStatici.pdb

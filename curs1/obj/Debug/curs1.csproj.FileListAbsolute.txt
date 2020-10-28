@@ -1,0 +1,14 @@
+C:\Users\alina\source\repos\curs1\bin\Debug\curs1.exe.config
+C:\Users\alina\source\repos\curs1\bin\Debug\curs1.exe
+C:\Users\alina\source\repos\curs1\bin\Debug\curs1.pdb
+C:\Users\alina\source\repos\curs1\obj\Debug\curs1.csprojAssemblyReference.cache
+C:\Users\alina\source\repos\curs1\obj\Debug\curs1.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\curs1\obj\Debug\curs1.exe
+C:\Users\alina\source\repos\curs1\obj\Debug\curs1.pdb
+C:\Users\alina\source\repos\TemeCSharp\curs1\bin\Debug\curs1.exe.config
+C:\Users\alina\source\repos\TemeCSharp\curs1\bin\Debug\curs1.exe
+C:\Users\alina\source\repos\TemeCSharp\curs1\bin\Debug\curs1.pdb
+C:\Users\alina\source\repos\TemeCSharp\curs1\obj\Debug\curs1.csprojAssemblyReference.cache
+C:\Users\alina\source\repos\TemeCSharp\curs1\obj\Debug\curs1.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\TemeCSharp\curs1\obj\Debug\curs1.exe
+C:\Users\alina\source\repos\TemeCSharp\curs1\obj\Debug\curs1.pdb

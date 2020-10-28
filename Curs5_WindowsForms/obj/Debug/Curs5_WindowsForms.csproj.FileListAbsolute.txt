@@ -1,0 +1,10 @@
+C:\Users\alina\source\repos\Curs5_WindowsForms\bin\Debug\Curs5_WindowsForms.exe.config
+C:\Users\alina\source\repos\Curs5_WindowsForms\bin\Debug\Curs5_WindowsForms.exe
+C:\Users\alina\source\repos\Curs5_WindowsForms\bin\Debug\Curs5_WindowsForms.pdb
+C:\Users\alina\source\repos\Curs5_WindowsForms\obj\Debug\Curs5_WindowsForms.csprojAssemblyReference.cache
+C:\Users\alina\source\repos\Curs5_WindowsForms\obj\Debug\Curs5_WindowsForms.Properties.Resources.resources
+C:\Users\alina\source\repos\Curs5_WindowsForms\obj\Debug\Curs5_WindowsForms.csproj.GenerateResource.cache
+C:\Users\alina\source\repos\Curs5_WindowsForms\obj\Debug\Curs5_WindowsForms.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\Curs5_WindowsForms\obj\Debug\Curs5_WindowsForms.exe
+C:\Users\alina\source\repos\Curs5_WindowsForms\obj\Debug\Curs5_WindowsForms.pdb
+C:\Users\alina\source\repos\Curs5_WindowsForms\obj\Debug\Curs5_WindowsForms.Aplicatie.resources

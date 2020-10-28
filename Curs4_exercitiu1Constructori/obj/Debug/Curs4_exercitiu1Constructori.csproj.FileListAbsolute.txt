@@ -1,0 +1,7 @@
+C:\Users\alina\source\repos\Curs4_exercitiu1Constructori\bin\Debug\Curs4_exercitiu1Constructori.exe.config
+C:\Users\alina\source\repos\Curs4_exercitiu1Constructori\bin\Debug\Curs4_exercitiu1Constructori.exe
+C:\Users\alina\source\repos\Curs4_exercitiu1Constructori\bin\Debug\Curs4_exercitiu1Constructori.pdb
+C:\Users\alina\source\repos\Curs4_exercitiu1Constructori\obj\Debug\Curs4_exercitiu1Constructori.csprojAssemblyReference.cache
+C:\Users\alina\source\repos\Curs4_exercitiu1Constructori\obj\Debug\Curs4_exercitiu1Constructori.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\Curs4_exercitiu1Constructori\obj\Debug\Curs4_exercitiu1Constructori.exe
+C:\Users\alina\source\repos\Curs4_exercitiu1Constructori\obj\Debug\Curs4_exercitiu1Constructori.pdb

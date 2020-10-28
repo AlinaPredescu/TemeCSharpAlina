@@ -1,0 +1,7 @@
+C:\Users\alina\source\repos\Curs3\bin\Debug\Curs3.exe.config
+C:\Users\alina\source\repos\Curs3\bin\Debug\Curs3.exe
+C:\Users\alina\source\repos\Curs3\bin\Debug\Curs3.pdb
+C:\Users\alina\source\repos\Curs3\obj\Debug\Curs3.csprojAssemblyReference.cache
+C:\Users\alina\source\repos\Curs3\obj\Debug\Curs3.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\Curs3\obj\Debug\Curs3.exe
+C:\Users\alina\source\repos\Curs3\obj\Debug\Curs3.pdb

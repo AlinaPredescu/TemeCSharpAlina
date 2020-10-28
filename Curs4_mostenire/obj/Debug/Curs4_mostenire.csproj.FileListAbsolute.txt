@@ -1,0 +1,7 @@
+C:\Users\alina\source\repos\Curs4_mostenire\bin\Debug\Curs4_mostenire.exe.config
+C:\Users\alina\source\repos\Curs4_mostenire\bin\Debug\Curs4_mostenire.exe
+C:\Users\alina\source\repos\Curs4_mostenire\bin\Debug\Curs4_mostenire.pdb
+C:\Users\alina\source\repos\Curs4_mostenire\obj\Debug\Curs4_mostenire.csprojAssemblyReference.cache
+C:\Users\alina\source\repos\Curs4_mostenire\obj\Debug\Curs4_mostenire.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\Curs4_mostenire\obj\Debug\Curs4_mostenire.exe
+C:\Users\alina\source\repos\Curs4_mostenire\obj\Debug\Curs4_mostenire.pdb
