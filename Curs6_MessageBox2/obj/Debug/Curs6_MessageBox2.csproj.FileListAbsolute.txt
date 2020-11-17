@@ -1,0 +1,11 @@
+C:\Users\alina\source\repos\Curs6_MessageBox2\bin\Debug\Curs6_MessageBox2.exe.config
+C:\Users\alina\source\repos\Curs6_MessageBox2\bin\Debug\Curs6_MessageBox2.exe
+C:\Users\alina\source\repos\Curs6_MessageBox2\bin\Debug\Curs6_MessageBox2.pdb
+C:\Users\alina\source\repos\Curs6_MessageBox2\obj\Debug\Curs6_MessageBox2.CustomDialog.resources
+C:\Users\alina\source\repos\Curs6_MessageBox2\obj\Debug\Curs6_MessageBox2.Form1.resources
+C:\Users\alina\source\repos\Curs6_MessageBox2\obj\Debug\Curs6_MessageBox2.Properties.Resources.resources
+C:\Users\alina\source\repos\Curs6_MessageBox2\obj\Debug\Curs6_MessageBox2.csproj.GenerateResource.cache
+C:\Users\alina\source\repos\Curs6_MessageBox2\obj\Debug\Curs6_MessageBox2.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\Curs6_MessageBox2\obj\Debug\Curs6_MessageBox2.exe
+C:\Users\alina\source\repos\Curs6_MessageBox2\obj\Debug\Curs6_MessageBox2.pdb
+C:\Users\alina\source\repos\Curs6_MessageBox2\obj\Debug\Curs6_MessageBox2.csprojAssemblyReference.cache

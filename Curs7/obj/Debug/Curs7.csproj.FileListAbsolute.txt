@@ -1,0 +1,9 @@
+C:\Users\alina\source\repos\Curs7\bin\Debug\Curs7.exe.config
+C:\Users\alina\source\repos\Curs7\bin\Debug\Curs7.exe
+C:\Users\alina\source\repos\Curs7\bin\Debug\Curs7.pdb
+C:\Users\alina\source\repos\Curs7\obj\Debug\Curs7.Form1.resources
+C:\Users\alina\source\repos\Curs7\obj\Debug\Curs7.Properties.Resources.resources
+C:\Users\alina\source\repos\Curs7\obj\Debug\Curs7.csproj.GenerateResource.cache
+C:\Users\alina\source\repos\Curs7\obj\Debug\Curs7.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\Curs7\obj\Debug\Curs7.exe
+C:\Users\alina\source\repos\Curs7\obj\Debug\Curs7.pdb

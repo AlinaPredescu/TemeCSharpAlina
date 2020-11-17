@@ -1,0 +1,5 @@
+C:\Users\alina\source\repos\Curs7_listview\obj\Debug\Curs7_gridview.csprojAssemblyReference.cache
+C:\Users\alina\source\repos\Curs7_listview\obj\Debug\Curs7_listview.Form1.resources
+C:\Users\alina\source\repos\Curs7_listview\obj\Debug\Curs7_listview.Properties.Resources.resources
+C:\Users\alina\source\repos\Curs7_listview\obj\Debug\Curs7_gridview.csproj.GenerateResource.cache
+C:\Users\alina\source\repos\Curs7_listview\obj\Debug\Curs7_gridview.csproj.CoreCompileInputs.cache

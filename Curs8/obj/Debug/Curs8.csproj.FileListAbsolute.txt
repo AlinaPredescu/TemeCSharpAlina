@@ -1,0 +1,10 @@
+C:\Users\alina\source\repos\Curs8\bin\Debug\Curs8.exe.config
+C:\Users\alina\source\repos\Curs8\bin\Debug\Curs8.exe
+C:\Users\alina\source\repos\Curs8\bin\Debug\Curs8.pdb
+C:\Users\alina\source\repos\Curs8\obj\Debug\Curs8.csprojAssemblyReference.cache
+C:\Users\alina\source\repos\Curs8\obj\Debug\Curs8.Form1.resources
+C:\Users\alina\source\repos\Curs8\obj\Debug\Curs8.Properties.Resources.resources
+C:\Users\alina\source\repos\Curs8\obj\Debug\Curs8.csproj.GenerateResource.cache
+C:\Users\alina\source\repos\Curs8\obj\Debug\Curs8.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\Curs8\obj\Debug\Curs8.exe
+C:\Users\alina\source\repos\Curs8\obj\Debug\Curs8.pdb

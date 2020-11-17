@@ -1,0 +1,9 @@
+C:\Users\alina\source\repos\Curs6_MessageBox\bin\Debug\Curs6_MessageBox.exe.config
+C:\Users\alina\source\repos\Curs6_MessageBox\bin\Debug\Curs6_MessageBox.exe
+C:\Users\alina\source\repos\Curs6_MessageBox\bin\Debug\Curs6_MessageBox.pdb
+C:\Users\alina\source\repos\Curs6_MessageBox\obj\Debug\Curs6_MessageBox.Form1.resources
+C:\Users\alina\source\repos\Curs6_MessageBox\obj\Debug\Curs6_MessageBox.Properties.Resources.resources
+C:\Users\alina\source\repos\Curs6_MessageBox\obj\Debug\Curs6_MessageBox.csproj.GenerateResource.cache
+C:\Users\alina\source\repos\Curs6_MessageBox\obj\Debug\Curs6_MessageBox.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\Curs6_MessageBox\obj\Debug\Curs6_MessageBox.exe
+C:\Users\alina\source\repos\Curs6_MessageBox\obj\Debug\Curs6_MessageBox.pdb

@@ -1,0 +1,10 @@
+C:\Users\alina\source\repos\Curs7_listview\obj\Debug\Curs7_listview.csprojAssemblyReference.cache
+C:\Users\alina\source\repos\Curs7_listview\obj\Debug\Curs7_listview.Form1.resources
+C:\Users\alina\source\repos\Curs7_listview\obj\Debug\Curs7_listview.Properties.Resources.resources
+C:\Users\alina\source\repos\Curs7_listview\obj\Debug\Curs7_listview.csproj.GenerateResource.cache
+C:\Users\alina\source\repos\Curs7_listview\obj\Debug\Curs7_listview.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\Curs7_listview\bin\Debug\Curs7_listview.exe.config
+C:\Users\alina\source\repos\Curs7_listview\bin\Debug\Curs7_listview.exe
+C:\Users\alina\source\repos\Curs7_listview\bin\Debug\Curs7_listview.pdb
+C:\Users\alina\source\repos\Curs7_listview\obj\Debug\Curs7_listview.exe
+C:\Users\alina\source\repos\Curs7_listview\obj\Debug\Curs7_listview.pdb

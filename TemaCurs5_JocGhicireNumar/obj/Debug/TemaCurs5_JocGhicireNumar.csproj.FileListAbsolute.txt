@@ -1,0 +1,11 @@
+C:\Users\alina\source\repos\TemaCurs5_JocGhicireNumar\bin\Debug\TemaCurs5_JocGhicireNumar.exe.config
+C:\Users\alina\source\repos\TemaCurs5_JocGhicireNumar\bin\Debug\TemaCurs5_JocGhicireNumar.exe
+C:\Users\alina\source\repos\TemaCurs5_JocGhicireNumar\bin\Debug\TemaCurs5_JocGhicireNumar.pdb
+C:\Users\alina\source\repos\TemaCurs5_JocGhicireNumar\obj\Debug\TemaCurs5_JocGhicireNumar.csprojAssemblyReference.cache
+C:\Users\alina\source\repos\TemaCurs5_JocGhicireNumar\obj\Debug\TemaCurs5_JocGhicireNumar.GhicesteNumarulForm.resources
+C:\Users\alina\source\repos\TemaCurs5_JocGhicireNumar\obj\Debug\TemaCurs5_JocGhicireNumar.Properties.Resources.resources
+C:\Users\alina\source\repos\TemaCurs5_JocGhicireNumar\obj\Debug\TemaCurs5_JocGhicireNumar.csproj.GenerateResource.cache
+C:\Users\alina\source\repos\TemaCurs5_JocGhicireNumar\obj\Debug\TemaCurs5_JocGhicireNumar.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\TemaCurs5_JocGhicireNumar\obj\Debug\TemaCurs5_JocGhicireNumar.exe
+C:\Users\alina\source\repos\TemaCurs5_JocGhicireNumar\obj\Debug\TemaCurs5_JocGhicireNumar.pdb
+C:\Users\alina\source\repos\TemaCurs5_JocGhicireNumar\obj\Debug\TemaCurs5_JocGhicireNumar.errorForm.resources

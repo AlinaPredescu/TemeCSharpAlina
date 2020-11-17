@@ -1,0 +1,10 @@
+C:\Users\alina\source\repos\TemaCurs5_Declaratie\bin\Debug\TemaCurs5_Declaratie.exe.config
+C:\Users\alina\source\repos\TemaCurs5_Declaratie\bin\Debug\TemaCurs5_Declaratie.exe
+C:\Users\alina\source\repos\TemaCurs5_Declaratie\bin\Debug\TemaCurs5_Declaratie.pdb
+C:\Users\alina\source\repos\TemaCurs5_Declaratie\obj\Debug\TemaCurs5_Declaratie.csprojAssemblyReference.cache
+C:\Users\alina\source\repos\TemaCurs5_Declaratie\obj\Debug\TemaCurs5_Declaratie.declaratieForm.resources
+C:\Users\alina\source\repos\TemaCurs5_Declaratie\obj\Debug\TemaCurs5_Declaratie.Properties.Resources.resources
+C:\Users\alina\source\repos\TemaCurs5_Declaratie\obj\Debug\TemaCurs5_Declaratie.csproj.GenerateResource.cache
+C:\Users\alina\source\repos\TemaCurs5_Declaratie\obj\Debug\TemaCurs5_Declaratie.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\TemaCurs5_Declaratie\obj\Debug\TemaCurs5_Declaratie.exe
+C:\Users\alina\source\repos\TemaCurs5_Declaratie\obj\Debug\TemaCurs5_Declaratie.pdb
