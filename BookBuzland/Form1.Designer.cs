@@ -40,7 +40,6 @@
 			this.pictureBox2 = new System.Windows.Forms.PictureBox();
 			this.totalCartiTextBox = new System.Windows.Forms.TextBox();
 			this.totalCartiLabel = new System.Windows.Forms.Label();
-			this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
 			this.nrCartiCititeTextBox = new System.Windows.Forms.TextBox();
 			this.cartiCititeLabel = new System.Windows.Forms.Label();
 			this.cAutografLabel = new System.Windows.Forms.Label();
@@ -48,11 +47,14 @@
 			this.imprumutatLabel = new System.Windows.Forms.Label();
 			this.imprumutataTextBox = new System.Windows.Forms.TextBox();
 			this.imprumutataCheckBox = new System.Windows.Forms.CheckBox();
+			this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+			this.deleteRowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			((System.ComponentModel.ISupportInitialize)(this.raftCartiPictureBox)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.titluCartiPictureBox)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+			this.contextMenuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// raftCartiPictureBox
@@ -118,6 +120,7 @@
 			this.dataGridView.ShowCellToolTips = false;
 			this.dataGridView.Size = new System.Drawing.Size(1228, 315);
 			this.dataGridView.TabIndex = 9;
+			this.dataGridView.CellMouseUp += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView_CellMouseUp);
 			this.dataGridView.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellValueChanged);
 			// 
 			// pictureBox1
@@ -155,11 +158,6 @@
 			this.totalCartiLabel.Size = new System.Drawing.Size(18, 20);
 			this.totalCartiLabel.TabIndex = 13;
 			this.totalCartiLabel.Text = "#";
-			// 
-			// notifyIcon1
-			// 
-			this.notifyIcon1.Text = "notifyIcon1";
-			this.notifyIcon1.Visible = true;
 			// 
 			// nrCartiCititeTextBox
 			// 
@@ -219,6 +217,21 @@
 			this.imprumutataCheckBox.UseVisualStyleBackColor = true;
 			this.imprumutataCheckBox.CheckedChanged += new System.EventHandler(this.imprumutataCheckBox_CheckedChanged);
 			// 
+			// contextMenuStrip1
+			// 
+			this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+			this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.deleteRowToolStripMenuItem});
+			this.contextMenuStrip1.Name = "contextMenuStrip1";
+			this.contextMenuStrip1.Size = new System.Drawing.Size(241, 69);
+			this.contextMenuStrip1.Click += new System.EventHandler(this.contextMenuStrip1_Click_1);
+			// 
+			// deleteRowToolStripMenuItem
+			// 
+			this.deleteRowToolStripMenuItem.Name = "deleteRowToolStripMenuItem";
+			this.deleteRowToolStripMenuItem.Size = new System.Drawing.Size(168, 32);
+			this.deleteRowToolStripMenuItem.Text = "DeleteRow";
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -250,6 +263,7 @@
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+			this.contextMenuStrip1.ResumeLayout(false);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -267,7 +281,6 @@
 		private System.Windows.Forms.PictureBox pictureBox2;
 		private System.Windows.Forms.TextBox totalCartiTextBox;
 		private System.Windows.Forms.Label totalCartiLabel;
-		private System.Windows.Forms.NotifyIcon notifyIcon1;
 		private System.Windows.Forms.TextBox nrCartiCititeTextBox;
 		private System.Windows.Forms.Label cartiCititeLabel;
 		private System.Windows.Forms.Label cAutografLabel;
@@ -275,6 +288,8 @@
 		private System.Windows.Forms.Label imprumutatLabel;
 		private System.Windows.Forms.TextBox imprumutataTextBox;
 		private System.Windows.Forms.CheckBox imprumutataCheckBox;
+		private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+		private System.Windows.Forms.ToolStripMenuItem deleteRowToolStripMenuItem;
 	}
 }
 

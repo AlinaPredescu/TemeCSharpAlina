@@ -40,12 +40,6 @@ namespace BookBuzland
 				xml.Serialize(streamWriter, biblioteca.Carti);
 				streamWriter.Close();
 
-//pt a-si face refresh gridul dupa ce adaug o carte noua				
-				StreamReader streamReader = new StreamReader("C:/Users/alina/Desktop/curs8 destinatie/carti.xml");
-				biblioteca.Carti = (List<Carte>)xml.Deserialize(streamReader);
-				streamReader.Close();
-				dataGridView.DataSource = biblioteca.Carti;
-
 				Form1_Load(null,null);
 
 			}
@@ -172,6 +166,33 @@ namespace BookBuzland
 				dataGridView.DataSource = cartiFiltrateImprumutate;
 			}
 		
+		}
+
+//sterge carte
+
+		private int rowIndex = 0;
+		private void dataGridView_CellMouseUp(object sender, DataGridViewCellMouseEventArgs e)
+		{
+
+			if (e.Button == MouseButtons.Right)
+			{
+				this.dataGridView.Rows[e.RowIndex].Selected = true;
+				this.rowIndex = e.RowIndex;
+				this.dataGridView.CurrentCell = this.dataGridView.Rows[e.RowIndex].Cells[1];
+				this.contextMenuStrip1.Show(this.dataGridView, e.Location);
+				contextMenuStrip1.Show(Cursor.Position);
+			}
+		}
+				
+
+		private void contextMenuStrip1_Click_1(object sender, EventArgs e)
+		{
+			if (!this.dataGridView.Rows[this.rowIndex].IsNewRow)
+			{
+				Carte carte = (Carte)this.dataGridView.Rows[rowIndex].DataBoundItem;
+				biblioteca.Carti.Remove(carte);
+				dataGridView_CellValueChanged(null, null);
+			}
 		}
 	}
 }
