@@ -46,8 +46,8 @@ namespace BookBuzland
 				streamReader.Close();
 				dataGridView.DataSource = biblioteca.Carti;
 
-//count nr total carti:
-				totalCartiTextBox.Text = dataGridView.Rows.Count.ToString();
+
+				Form1_Load(null,null);
 
 			}
 		}
@@ -73,7 +73,7 @@ namespace BookBuzland
 //afisare numar total carti
 			totalCartiTextBox.Text = dataGridView.Rows.Count.ToString();
 
-			//afisare nr carti citite
+//afisare nr carti citite
 			int nrCartiCitite = 0;
 
 			foreach (Carte carteCitita in biblioteca.Carti)
@@ -85,10 +85,33 @@ namespace BookBuzland
 				}
 			}
 			nrCartiCititeTextBox.Text = nrCartiCitite.ToString();
+
+//afisare nr carti cu autograf
+			int nrCartiAutograf = 0;
+
+			foreach (Carte carteCuAutograf in biblioteca.Carti)
+			{
+				if (carteCuAutograf.CuAutograf == true)
+				{
+					nrCartiAutograf++;
+				}
+			}
+			cuAutografTextBox.Text = nrCartiAutograf.ToString();
+
+//afisare nr carti imprumutate
+			int nrCartiImprumutate = 0;
+			foreach (Carte carteImprumutata in biblioteca.Carti)
+			{
+				if (carteImprumutata.Imprumutata == true)
+				{
+					nrCartiImprumutate++;
+				}
+			}
+			imprumutataTextBox.Text = nrCartiImprumutate.ToString();
 		}
 
 
-		//cauta
+//cauta
 		private void cautaTextBox_KeyUp(object sender, KeyEventArgs e)
 		{
 			string carteCautata = cautaTextBox.Text;

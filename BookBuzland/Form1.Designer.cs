@@ -43,6 +43,10 @@
 			this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
 			this.nrCartiCititeTextBox = new System.Windows.Forms.TextBox();
 			this.cartiCititeLabel = new System.Windows.Forms.Label();
+			this.cAutografLabel = new System.Windows.Forms.Label();
+			this.cuAutografTextBox = new System.Windows.Forms.TextBox();
+			this.imprumutatLabel = new System.Windows.Forms.Label();
+			this.imprumutataTextBox = new System.Windows.Forms.TextBox();
 			((System.ComponentModel.ISupportInitialize)(this.raftCartiPictureBox)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.titluCartiPictureBox)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
@@ -158,7 +162,7 @@
 			// 
 			// nrCartiCititeTextBox
 			// 
-			this.nrCartiCititeTextBox.Location = new System.Drawing.Point(697, 614);
+			this.nrCartiCititeTextBox.Location = new System.Drawing.Point(688, 610);
 			this.nrCartiCititeTextBox.Name = "nrCartiCititeTextBox";
 			this.nrCartiCititeTextBox.Size = new System.Drawing.Size(66, 26);
 			this.nrCartiCititeTextBox.TabIndex = 14;
@@ -166,11 +170,43 @@
 			// cartiCititeLabel
 			// 
 			this.cartiCititeLabel.AutoSize = true;
-			this.cartiCititeLabel.Location = new System.Drawing.Point(673, 620);
+			this.cartiCititeLabel.Location = new System.Drawing.Point(664, 616);
 			this.cartiCititeLabel.Name = "cartiCititeLabel";
 			this.cartiCititeLabel.Size = new System.Drawing.Size(18, 20);
 			this.cartiCititeLabel.TabIndex = 15;
 			this.cartiCititeLabel.Text = "#";
+			// 
+			// cAutografLabel
+			// 
+			this.cAutografLabel.AutoSize = true;
+			this.cAutografLabel.Location = new System.Drawing.Point(812, 616);
+			this.cAutografLabel.Name = "cAutografLabel";
+			this.cAutografLabel.Size = new System.Drawing.Size(18, 20);
+			this.cAutografLabel.TabIndex = 16;
+			this.cAutografLabel.Text = "#";
+			// 
+			// cuAutografTextBox
+			// 
+			this.cuAutografTextBox.Location = new System.Drawing.Point(836, 611);
+			this.cuAutografTextBox.Name = "cuAutografTextBox";
+			this.cuAutografTextBox.Size = new System.Drawing.Size(66, 26);
+			this.cuAutografTextBox.TabIndex = 17;
+			// 
+			// imprumutatLabel
+			// 
+			this.imprumutatLabel.AutoSize = true;
+			this.imprumutatLabel.Location = new System.Drawing.Point(946, 615);
+			this.imprumutatLabel.Name = "imprumutatLabel";
+			this.imprumutatLabel.Size = new System.Drawing.Size(18, 20);
+			this.imprumutatLabel.TabIndex = 18;
+			this.imprumutatLabel.Text = "#";
+			// 
+			// imprumutataTextBox
+			// 
+			this.imprumutataTextBox.Location = new System.Drawing.Point(971, 611);
+			this.imprumutataTextBox.Name = "imprumutataTextBox";
+			this.imprumutataTextBox.Size = new System.Drawing.Size(66, 26);
+			this.imprumutataTextBox.TabIndex = 19;
 			// 
 			// Form1
 			// 
@@ -178,6 +214,10 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.White;
 			this.ClientSize = new System.Drawing.Size(1478, 1050);
+			this.Controls.Add(this.imprumutataTextBox);
+			this.Controls.Add(this.imprumutatLabel);
+			this.Controls.Add(this.cuAutografTextBox);
+			this.Controls.Add(this.cAutografLabel);
 			this.Controls.Add(this.cartiCititeLabel);
 			this.Controls.Add(this.nrCartiCititeTextBox);
 			this.Controls.Add(this.totalCartiLabel);
@@ -218,6 +258,10 @@
 		private System.Windows.Forms.NotifyIcon notifyIcon1;
 		private System.Windows.Forms.TextBox nrCartiCititeTextBox;
 		private System.Windows.Forms.Label cartiCititeLabel;
+		private System.Windows.Forms.Label cAutografLabel;
+		private System.Windows.Forms.TextBox cuAutografTextBox;
+		private System.Windows.Forms.Label imprumutatLabel;
+		private System.Windows.Forms.TextBox imprumutataTextBox;
 	}
 }
 
