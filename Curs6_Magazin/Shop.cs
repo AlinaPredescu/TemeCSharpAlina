@@ -13,9 +13,8 @@ namespace Curs6_Magazin
 //constructorul
 		public Shop()
 		{
-
 			//initializare lista
-			Categories = new List<Category>();
+	Categories = new List<Category>();
 	Products = new List<Product>();
 
 		}
