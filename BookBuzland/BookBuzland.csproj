@@ -104,5 +104,11 @@
   <ItemGroup>
     <None Include="Resources\lupa.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconCarte.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconcCarte.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

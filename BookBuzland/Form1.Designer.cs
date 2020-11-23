@@ -47,6 +47,7 @@
 			this.cuAutografTextBox = new System.Windows.Forms.TextBox();
 			this.imprumutatLabel = new System.Windows.Forms.Label();
 			this.imprumutataTextBox = new System.Windows.Forms.TextBox();
+			this.imprumutataCheckBox = new System.Windows.Forms.CheckBox();
 			((System.ComponentModel.ISupportInitialize)(this.raftCartiPictureBox)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.titluCartiPictureBox)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
@@ -113,7 +114,7 @@
 			this.dataGridView.Name = "dataGridView";
 			this.dataGridView.RowHeadersWidth = 62;
 			this.dataGridView.RowTemplate.Height = 28;
-			this.dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
+			this.dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
 			this.dataGridView.ShowCellToolTips = false;
 			this.dataGridView.Size = new System.Drawing.Size(1228, 315);
 			this.dataGridView.TabIndex = 9;
@@ -208,12 +209,23 @@
 			this.imprumutataTextBox.Size = new System.Drawing.Size(66, 26);
 			this.imprumutataTextBox.TabIndex = 19;
 			// 
+			// imprumutataCheckBox
+			// 
+			this.imprumutataCheckBox.AutoSize = true;
+			this.imprumutataCheckBox.Location = new System.Drawing.Point(1044, 612);
+			this.imprumutataCheckBox.Name = "imprumutataCheckBox";
+			this.imprumutataCheckBox.Size = new System.Drawing.Size(22, 21);
+			this.imprumutataCheckBox.TabIndex = 20;
+			this.imprumutataCheckBox.UseVisualStyleBackColor = true;
+			this.imprumutataCheckBox.CheckedChanged += new System.EventHandler(this.imprumutataCheckBox_CheckedChanged);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.White;
 			this.ClientSize = new System.Drawing.Size(1478, 1050);
+			this.Controls.Add(this.imprumutataCheckBox);
 			this.Controls.Add(this.imprumutataTextBox);
 			this.Controls.Add(this.imprumutatLabel);
 			this.Controls.Add(this.cuAutografTextBox);
@@ -262,6 +274,7 @@
 		private System.Windows.Forms.TextBox cuAutografTextBox;
 		private System.Windows.Forms.Label imprumutatLabel;
 		private System.Windows.Forms.TextBox imprumutataTextBox;
+		private System.Windows.Forms.CheckBox imprumutataCheckBox;
 	}
 }
 

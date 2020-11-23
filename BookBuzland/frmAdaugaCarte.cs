@@ -17,7 +17,6 @@ namespace BookBuzland
 	{
 		private object carteDataGridView1;
 
-	
 		public Carte CarteAdaugata { get; set; }
 
 

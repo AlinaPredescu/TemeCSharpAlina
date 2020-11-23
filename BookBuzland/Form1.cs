@@ -46,7 +46,6 @@ namespace BookBuzland
 				streamReader.Close();
 				dataGridView.DataSource = biblioteca.Carti;
 
-
 				Form1_Load(null,null);
 
 			}
@@ -145,6 +144,34 @@ namespace BookBuzland
 			StreamWriter streamWriter = new StreamWriter("C:/Users/alina/Desktop/curs8 destinatie/carti.xml");
 			xml.Serialize(streamWriter, biblioteca.Carti);
 			streamWriter.Close();
+
+			Form1_Load(null, null);
+		}
+
+//afisare carti imprumutate
+		private void imprumutataCheckBox_CheckedChanged(object sender, EventArgs e)
+		{
+			//bool carteImprumutata = imprumutataCheckBox.Checked;
+
+			BindingList<Carte> cartiFiltrateImprumutate = new BindingList<Carte>();
+
+			foreach (Carte carte3 in biblioteca.Carti)
+			{
+				if (carte3.Imprumutata ==true || imprumutataCheckBox.Checked==false)
+					{
+					cartiFiltrateImprumutate.Add(carte3);
+				}
+			}
+
+			if (cartiFiltrateImprumutate.Count == 0)
+			{
+				MessageBox.Show("Nu aveti carti imprumutate");
+			}
+			else
+			{
+				dataGridView.DataSource = cartiFiltrateImprumutate;
+			}
+		
 		}
 	}
 }
