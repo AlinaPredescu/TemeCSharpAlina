@@ -10,3 +10,15 @@ C:\Users\alina\source\repos\BookBuzland\obj\Debug\BookBuzland.pdb
 C:\Users\alina\source\repos\BookBuzland\obj\Debug\BookBuzland.Form1.resources
 C:\Users\alina\source\repos\BookBuzland\obj\Debug\BookBuzland.frmAdaugaCarte.resources
 C:\Users\alina\source\repos\BookBuzland\obj\Debug\BookBuzland.frmAfisareCarti.resources
+C:\Users\alina\source\repos\TemeCSharp\BookBuzland\bin\Debug\BookBuzland.exe.config
+C:\Users\alina\source\repos\TemeCSharp\BookBuzland\bin\Debug\BookBuzland.exe
+C:\Users\alina\source\repos\TemeCSharp\BookBuzland\bin\Debug\BookBuzland.pdb
+C:\Users\alina\source\repos\TemeCSharp\BookBuzland\obj\Debug\BookBuzland.csprojAssemblyReference.cache
+C:\Users\alina\source\repos\TemeCSharp\BookBuzland\obj\Debug\BookBuzland.frmAdaugaCarte.resources
+C:\Users\alina\source\repos\TemeCSharp\BookBuzland\obj\Debug\BookBuzland.Form1.resources
+C:\Users\alina\source\repos\TemeCSharp\BookBuzland\obj\Debug\BookBuzland.frmAfisareCarti.resources
+C:\Users\alina\source\repos\TemeCSharp\BookBuzland\obj\Debug\BookBuzland.Properties.Resources.resources
+C:\Users\alina\source\repos\TemeCSharp\BookBuzland\obj\Debug\BookBuzland.csproj.GenerateResource.cache
+C:\Users\alina\source\repos\TemeCSharp\BookBuzland\obj\Debug\BookBuzland.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\TemeCSharp\BookBuzland\obj\Debug\BookBuzland.exe
+C:\Users\alina\source\repos\TemeCSharp\BookBuzland\obj\Debug\BookBuzland.pdb

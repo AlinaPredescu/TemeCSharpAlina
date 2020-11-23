@@ -44,9 +44,9 @@ namespace BookBuzland
 			string comentarii = comentariiRichTextBox.Text;
 
 			CarteAdaugata = new Carte(titlu, autor, anAparitie, tip, citita, cuAutograf,imprumutata,comentarii);
-
 			DialogResult = DialogResult.OK;
 
+			
 			}
 
 		private void comentariiRichTextBox_TextChanged(object sender, EventArgs e)
