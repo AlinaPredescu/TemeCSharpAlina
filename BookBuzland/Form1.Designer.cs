@@ -267,6 +267,7 @@
 			this.Controls.Add(this.adaugaCartiButton);
 			this.Controls.Add(this.titluCartiPictureBox);
 			this.Controls.Add(this.raftCartiPictureBox);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "Form1";
 			this.Text = "BookBuzland";
 			this.Load += new System.EventHandler(this.Form1_Load);

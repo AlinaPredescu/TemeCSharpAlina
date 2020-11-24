@@ -17,6 +17,9 @@ namespace BookBuzland
 	public partial class Form1 : Form
 	{
 
+//creare xml in folderul unde am aplicatia
+		string path=Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Carti.xml");
+
 		public Biblioteca biblioteca;
 		public Form1()
 		{
@@ -34,7 +37,7 @@ namespace BookBuzland
 				biblioteca.Carti.Add(addForm.CarteAdaugata);
 
 				XmlSerializer xml = new XmlSerializer(typeof(List<Carte>));
-				StreamWriter streamWriter = new StreamWriter("C:/Users/alina/Desktop/curs8 destinatie/carti.xml");
+				StreamWriter streamWriter = new StreamWriter(path);
 				xml.Serialize(streamWriter, biblioteca.Carti);
 				streamWriter.Close();
 
@@ -56,7 +59,7 @@ namespace BookBuzland
 		private void Form1_Load(object sender, EventArgs e)
 		{
 			XmlSerializer xml = new XmlSerializer(typeof(List<Carte>));
-			StreamReader streamReader = new StreamReader("C:/Users/alina/Desktop/curs8 destinatie/carti.xml");
+			StreamReader streamReader = new StreamReader(path);
 			biblioteca.Carti = (List<Carte>)xml.Deserialize(streamReader);
 			streamReader.Close();
 			dataGridView.DataSource = biblioteca.Carti;
@@ -135,7 +138,7 @@ namespace BookBuzland
 		private void dataGridView_CellValueChanged(object sender, DataGridViewCellEventArgs e)
 		{
 			XmlSerializer xml = new XmlSerializer(typeof(List<Carte>));
-			StreamWriter streamWriter = new StreamWriter("C:/Users/alina/Desktop/curs8 destinatie/carti.xml");
+			StreamWriter streamWriter = new StreamWriter(path);
 			xml.Serialize(streamWriter, biblioteca.Carti);
 			streamWriter.Close();
 

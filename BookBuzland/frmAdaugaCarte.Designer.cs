@@ -47,6 +47,7 @@
 			this.comentariiRichTextBox = new System.Windows.Forms.RichTextBox();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.carteAdaugataButton = new System.Windows.Forms.Button();
+			this.anuleazaButton = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -225,7 +226,7 @@
 			// 
 			// carteAdaugataButton
 			// 
-			this.carteAdaugataButton.Location = new System.Drawing.Point(407, 432);
+			this.carteAdaugataButton.Location = new System.Drawing.Point(282, 432);
 			this.carteAdaugataButton.Name = "carteAdaugataButton";
 			this.carteAdaugataButton.Size = new System.Drawing.Size(109, 50);
 			this.carteAdaugataButton.TabIndex = 19;
@@ -233,12 +234,23 @@
 			this.carteAdaugataButton.UseVisualStyleBackColor = true;
 			this.carteAdaugataButton.Click += new System.EventHandler(this.carteAdaugataButton_Click);
 			// 
+			// anuleazaButton
+			// 
+			this.anuleazaButton.Location = new System.Drawing.Point(406, 432);
+			this.anuleazaButton.Name = "anuleazaButton";
+			this.anuleazaButton.Size = new System.Drawing.Size(109, 50);
+			this.anuleazaButton.TabIndex = 20;
+			this.anuleazaButton.Text = "Anuleaza";
+			this.anuleazaButton.UseVisualStyleBackColor = true;
+			this.anuleazaButton.Click += new System.EventHandler(this.anuleazaButton_Click);
+			// 
 			// frmAdaugaCarte
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.White;
 			this.ClientSize = new System.Drawing.Size(528, 494);
+			this.Controls.Add(this.anuleazaButton);
 			this.Controls.Add(this.carteAdaugataButton);
 			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.comentariiRichTextBox);
@@ -257,6 +269,7 @@
 			this.Controls.Add(this.anAparitieLabel);
 			this.Controls.Add(this.autorLabel);
 			this.Controls.Add(this.titluLabel);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "frmAdaugaCarte";
 			this.Text = "AdaugaCarte";
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -284,5 +297,6 @@
 		private System.Windows.Forms.RichTextBox comentariiRichTextBox;
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.Button carteAdaugataButton;
+		private System.Windows.Forms.Button anuleazaButton;
 	}
 }

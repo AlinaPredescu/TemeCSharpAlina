@@ -82,5 +82,19 @@ namespace BookBuzland
 		{
 
 		}
+
+		private void anuleazaButton_Click(object sender, EventArgs e)
+		{
+
+			titluTextBox.Text="";
+			autorTextBox.Text="";
+			anAparitieTextBox.Text="";
+			tipComboBox.Text="";
+			cititaCheckBox.Checked=false;
+			cuAutografCheckBox.Checked = false;
+			imprumutataCheckBox.Checked=false;
+			comentariiRichTextBox.Text="";
+			Close();
+		}
 	}
 }
