@@ -17,8 +17,6 @@ namespace BookBuzland
 	public partial class Form1 : Form
 	{
 
-
-		//private readonly object carteDataGridView;
 		public Biblioteca biblioteca;
 		public Form1()
 		{
@@ -62,6 +60,7 @@ namespace BookBuzland
 			biblioteca.Carti = (List<Carte>)xml.Deserialize(streamReader);
 			streamReader.Close();
 			dataGridView.DataSource = biblioteca.Carti;
+		
 
 //afisare numar total carti
 			totalCartiTextBox.Text = dataGridView.Rows.Count.ToString();
@@ -104,7 +103,7 @@ namespace BookBuzland
 		}
 
 
-//cauta
+//cauta dupa titlu, autor si tip
 		private void cautaTextBox_KeyUp(object sender, KeyEventArgs e)
 		{
 			string carteCautata = cautaTextBox.Text;
@@ -113,7 +112,8 @@ namespace BookBuzland
 
 			foreach (Carte carte2 in biblioteca.Carti)
 			{
-				if (carte2.Titlu.StartsWith(carteCautata))
+				if (carte2.Titlu.StartsWith(carteCautata) || carte2.Autor.StartsWith(carteCautata)
+					|| carte2.Tip.StartsWith(carteCautata))
 				{
 					cartiFiltrate.Add(carte2);
 				}
@@ -144,9 +144,7 @@ namespace BookBuzland
 
 //afisare carti imprumutate
 		private void imprumutataCheckBox_CheckedChanged(object sender, EventArgs e)
-		{
-			//bool carteImprumutata = imprumutataCheckBox.Checked;
-
+		{			
 			BindingList<Carte> cartiFiltrateImprumutate = new BindingList<Carte>();
 
 			foreach (Carte carte3 in biblioteca.Carti)
@@ -168,7 +166,31 @@ namespace BookBuzland
 		
 		}
 
-//sterge carte
+//afisare necitite
+
+		private void necititeCheckBox_CheckedChanged(object sender, EventArgs e)
+		{
+			BindingList<Carte> CartiNecitite = new BindingList<Carte>();
+
+			foreach (Carte carte4 in biblioteca.Carti)
+			{
+				if (carte4.Citita == false || necititeCheckBox.Checked == false)
+				{
+					CartiNecitite.Add(carte4);
+				}
+			}
+
+			if (CartiNecitite.Count == 0)
+			{
+				MessageBox.Show("Nu aveti carti necitite");
+			}
+			else
+			{
+				dataGridView.DataSource = CartiNecitite;
+			}
+		}
+
+		//sterge carte
 
 		private int rowIndex = 0;
 		private void dataGridView_CellMouseUp(object sender, DataGridViewCellMouseEventArgs e)
@@ -194,5 +216,6 @@ namespace BookBuzland
 				dataGridView_CellValueChanged(null, null);
 			}
 		}
+
 	}
 }

@@ -49,6 +49,7 @@
 			this.imprumutataCheckBox = new System.Windows.Forms.CheckBox();
 			this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
 			this.deleteRowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.necititeCheckBox = new System.Windows.Forms.CheckBox();
 			((System.ComponentModel.ISupportInitialize)(this.raftCartiPictureBox)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.titluCartiPictureBox)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
@@ -223,7 +224,7 @@
 			this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.deleteRowToolStripMenuItem});
 			this.contextMenuStrip1.Name = "contextMenuStrip1";
-			this.contextMenuStrip1.Size = new System.Drawing.Size(241, 69);
+			this.contextMenuStrip1.Size = new System.Drawing.Size(169, 36);
 			this.contextMenuStrip1.Click += new System.EventHandler(this.contextMenuStrip1_Click_1);
 			// 
 			// deleteRowToolStripMenuItem
@@ -232,12 +233,23 @@
 			this.deleteRowToolStripMenuItem.Size = new System.Drawing.Size(168, 32);
 			this.deleteRowToolStripMenuItem.Text = "DeleteRow";
 			// 
+			// necititeCheckBox
+			// 
+			this.necititeCheckBox.AutoSize = true;
+			this.necititeCheckBox.Location = new System.Drawing.Point(761, 612);
+			this.necititeCheckBox.Name = "necititeCheckBox";
+			this.necititeCheckBox.Size = new System.Drawing.Size(22, 21);
+			this.necititeCheckBox.TabIndex = 21;
+			this.necititeCheckBox.UseVisualStyleBackColor = true;
+			this.necititeCheckBox.CheckedChanged += new System.EventHandler(this.necititeCheckBox_CheckedChanged);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.White;
 			this.ClientSize = new System.Drawing.Size(1478, 1050);
+			this.Controls.Add(this.necititeCheckBox);
 			this.Controls.Add(this.imprumutataCheckBox);
 			this.Controls.Add(this.imprumutataTextBox);
 			this.Controls.Add(this.imprumutatLabel);
@@ -290,6 +302,7 @@
 		private System.Windows.Forms.CheckBox imprumutataCheckBox;
 		private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
 		private System.Windows.Forms.ToolStripMenuItem deleteRowToolStripMenuItem;
+		private System.Windows.Forms.CheckBox necititeCheckBox;
 	}
 }
 
