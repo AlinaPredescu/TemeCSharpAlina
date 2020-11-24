@@ -30,21 +30,37 @@ namespace BookBuzland
 			this.carteDataGridView1 = carteDataGridView1;
 		}
 
+
 		private void carteAdaugataButton_Click(object sender, EventArgs e)
 		{
-			string titlu = titluTextBox.Text;
-			string autor = autorTextBox.Text;
-			int anAparitie;
-			anAparitie = int.Parse(anAparitieTextBox.Text);
-			string tip = tipComboBox.Text;
-			bool citita = cititaCheckBox.Checked;
-			bool cuAutograf = cuAutografCheckBox.Checked;
-			bool imprumutata = imprumutataCheckBox.Checked;
-			string comentarii = comentariiRichTextBox.Text;
+		
+				if (titluTextBox.Text == "" || autorTextBox.Text=="")
+				{
+					MessageBox.Show("Completeaza campurile marcate cu *");
+				}
+				else
+				{
+					string titlu = titluTextBox.Text;
+					string autor = autorTextBox.Text;
+					
+					int? anAparitie=null;
+				try
+				{
+					anAparitie = int.Parse(anAparitieTextBox.Text);
+				}
 
-			CarteAdaugata = new Carte(titlu, autor, anAparitie, tip, citita, cuAutograf,imprumutata,comentarii);
-			DialogResult = DialogResult.OK;
+				catch (Exception)
+				{
 
+				}
+					string tip = tipComboBox.Text;
+					bool citita = cititaCheckBox.Checked;
+					bool cuAutograf = cuAutografCheckBox.Checked;
+					bool imprumutata = imprumutataCheckBox.Checked;
+					string comentarii = comentariiRichTextBox.Text;
+					CarteAdaugata = new Carte(titlu, autor, anAparitie, tip, citita, cuAutograf, imprumutata, comentarii);
+					DialogResult = DialogResult.OK;
+				}
 			
 			}
 
@@ -96,5 +112,7 @@ namespace BookBuzland
 			comentariiRichTextBox.Text="";
 			Close();
 		}
+
+	
 	}
 }

@@ -4,9 +4,9 @@
     <Titlu>carte1</Titlu>
     <Autor>alina</Autor>
     <AnAparitie>1999</AnAparitie>
-    <Tip>Jurnal</Tip>
-    <Citita>true</Citita>
-    <CuAutograf>true</CuAutograf>
+    <Tip>jurnal</Tip>
+    <Citita>false</Citita>
+    <CuAutograf>false</CuAutograf>
     <Imprumutata>true</Imprumutata>
     <Comentarii />
   </Carte>
@@ -14,7 +14,7 @@
     <Titlu>carte2</Titlu>
     <Autor>Alina</Autor>
     <AnAparitie>2019</AnAparitie>
-    <Tip>Poezie</Tip>
+    <Tip>poezie</Tip>
     <Citita>false</Citita>
     <CuAutograf>true</CuAutograf>
     <Imprumutata>true</Imprumutata>

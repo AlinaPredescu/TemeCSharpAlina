@@ -11,7 +11,7 @@ namespace BookBuzland
 		
 		public string Titlu { get; set; }
 		public string Autor { get; set; }
-		public int AnAparitie { get; set; }
+		public int? AnAparitie { get; set; }
 		public string Tip { get; set; }
 		public bool Citita { get; set; }
 		public bool CuAutograf { get; set; }
@@ -25,7 +25,7 @@ namespace BookBuzland
 		}
 
 //constructor:
-		public Carte(string titlu, string autor, int anAparitie, string tip,
+		public Carte(string titlu, string autor, int? anAparitie, string tip,
 			bool citita, bool cuAutograf, bool imprumutata, string comentarii)
 		{
 			this.Titlu = titlu;

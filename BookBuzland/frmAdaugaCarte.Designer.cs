@@ -56,18 +56,18 @@
 			this.titluLabel.AutoSize = true;
 			this.titluLabel.Location = new System.Drawing.Point(11, 59);
 			this.titluLabel.Name = "titluLabel";
-			this.titluLabel.Size = new System.Drawing.Size(42, 20);
+			this.titluLabel.Size = new System.Drawing.Size(48, 20);
 			this.titluLabel.TabIndex = 1;
-			this.titluLabel.Text = "Titlu:";
+			this.titluLabel.Text = "Titlu*:";
 			// 
 			// autorLabel
 			// 
 			this.autorLabel.AutoSize = true;
 			this.autorLabel.Location = new System.Drawing.Point(11, 92);
 			this.autorLabel.Name = "autorLabel";
-			this.autorLabel.Size = new System.Drawing.Size(52, 20);
+			this.autorLabel.Size = new System.Drawing.Size(58, 20);
 			this.autorLabel.TabIndex = 2;
-			this.autorLabel.Text = "Autor:";
+			this.autorLabel.Text = "Autor*:";
 			// 
 			// anAparitieLabel
 			// 
@@ -192,14 +192,14 @@
 			this.tipComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			this.tipComboBox.FormattingEnabled = true;
 			this.tipComboBox.Items.AddRange(new object[] {
-            "Dezvoltare personala",
-            "Economie",
-            "Fictiune",
-            "Jurnal",
-            "Manuale/Dictionare",
-            "Poezie",
-            "Psihologie",
-            "Altele"});
+            "dezvoltare personala",
+            "economie",
+            "fictiune",
+            "jurnal",
+            "manuale/Dictionare",
+            "poezie",
+            "psihologie",
+            "altele"});
 			this.tipComboBox.Location = new System.Drawing.Point(116, 150);
 			this.tipComboBox.Name = "tipComboBox";
 			this.tipComboBox.Size = new System.Drawing.Size(284, 28);
