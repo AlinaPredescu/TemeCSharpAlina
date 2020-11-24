@@ -30,6 +30,7 @@
 		{
 			this.components = new System.ComponentModel.Container();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
 			this.raftCartiPictureBox = new System.Windows.Forms.PictureBox();
 			this.titluCartiPictureBox = new System.Windows.Forms.PictureBox();
 			this.adaugaCartiButton = new System.Windows.Forms.Button();
@@ -50,12 +51,16 @@
 			this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
 			this.deleteRowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.necititeCheckBox = new System.Windows.Forms.CheckBox();
+			this.cuAutografCheckBox = new System.Windows.Forms.CheckBox();
+			this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+			this.toolStripProgressBar = new System.Windows.Forms.ToolStripProgressBar();
 			((System.ComponentModel.ISupportInitialize)(this.raftCartiPictureBox)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.titluCartiPictureBox)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
 			this.contextMenuStrip1.SuspendLayout();
+			this.toolStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// raftCartiPictureBox
@@ -81,12 +86,15 @@
 			// 
 			// adaugaCartiButton
 			// 
+			this.adaugaCartiButton.BackColor = System.Drawing.Color.White;
+			this.adaugaCartiButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.adaugaCartiButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.adaugaCartiButton.Location = new System.Drawing.Point(70, 179);
 			this.adaugaCartiButton.Name = "adaugaCartiButton";
 			this.adaugaCartiButton.Size = new System.Drawing.Size(168, 62);
 			this.adaugaCartiButton.TabIndex = 2;
 			this.adaugaCartiButton.Text = "Adauga carte";
-			this.adaugaCartiButton.UseVisualStyleBackColor = true;
+			this.adaugaCartiButton.UseVisualStyleBackColor = false;
 			this.adaugaCartiButton.Click += new System.EventHandler(this.adaugaCartiButton_Click);
 			// 
 			// afisareCartiButton
@@ -112,7 +120,17 @@
 			// 
 			this.dataGridView.AllowUserToAddRows = false;
 			this.dataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-			this.dataGridView.ColumnHeadersHeight = 34;
+			this.dataGridView.BackgroundColor = System.Drawing.Color.AliceBlue;
+			dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+			dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+			dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.ButtonHighlight;
+			dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+			dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+			this.dataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+			this.dataGridView.ColumnHeadersHeight = 40;
+			this.dataGridView.GridColor = System.Drawing.SystemColors.ActiveCaption;
 			this.dataGridView.Location = new System.Drawing.Point(26, 293);
 			this.dataGridView.Name = "dataGridView";
 			this.dataGridView.RowHeadersWidth = 62;
@@ -146,6 +164,7 @@
 			// 
 			// totalCartiTextBox
 			// 
+			this.totalCartiTextBox.BackColor = System.Drawing.Color.AliceBlue;
 			this.totalCartiTextBox.Location = new System.Drawing.Point(150, 611);
 			this.totalCartiTextBox.Name = "totalCartiTextBox";
 			this.totalCartiTextBox.Size = new System.Drawing.Size(66, 26);
@@ -154,6 +173,7 @@
 			// totalCartiLabel
 			// 
 			this.totalCartiLabel.AutoSize = true;
+			this.totalCartiLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.totalCartiLabel.Location = new System.Drawing.Point(126, 614);
 			this.totalCartiLabel.Name = "totalCartiLabel";
 			this.totalCartiLabel.Size = new System.Drawing.Size(18, 20);
@@ -162,7 +182,8 @@
 			// 
 			// nrCartiCititeTextBox
 			// 
-			this.nrCartiCititeTextBox.Location = new System.Drawing.Point(688, 610);
+			this.nrCartiCititeTextBox.BackColor = System.Drawing.Color.AliceBlue;
+			this.nrCartiCititeTextBox.Location = new System.Drawing.Point(688, 611);
 			this.nrCartiCititeTextBox.Name = "nrCartiCititeTextBox";
 			this.nrCartiCititeTextBox.Size = new System.Drawing.Size(66, 26);
 			this.nrCartiCititeTextBox.TabIndex = 14;
@@ -170,7 +191,8 @@
 			// cartiCititeLabel
 			// 
 			this.cartiCititeLabel.AutoSize = true;
-			this.cartiCititeLabel.Location = new System.Drawing.Point(664, 616);
+			this.cartiCititeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.cartiCititeLabel.Location = new System.Drawing.Point(664, 617);
 			this.cartiCititeLabel.Name = "cartiCititeLabel";
 			this.cartiCititeLabel.Size = new System.Drawing.Size(18, 20);
 			this.cartiCititeLabel.TabIndex = 15;
@@ -179,7 +201,8 @@
 			// cAutografLabel
 			// 
 			this.cAutografLabel.AutoSize = true;
-			this.cAutografLabel.Location = new System.Drawing.Point(812, 616);
+			this.cAutografLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.cAutografLabel.Location = new System.Drawing.Point(823, 616);
 			this.cAutografLabel.Name = "cAutografLabel";
 			this.cAutografLabel.Size = new System.Drawing.Size(18, 20);
 			this.cAutografLabel.TabIndex = 16;
@@ -187,7 +210,8 @@
 			// 
 			// cuAutografTextBox
 			// 
-			this.cuAutografTextBox.Location = new System.Drawing.Point(836, 611);
+			this.cuAutografTextBox.BackColor = System.Drawing.Color.AliceBlue;
+			this.cuAutografTextBox.Location = new System.Drawing.Point(847, 611);
 			this.cuAutografTextBox.Name = "cuAutografTextBox";
 			this.cuAutografTextBox.Size = new System.Drawing.Size(66, 26);
 			this.cuAutografTextBox.TabIndex = 17;
@@ -195,7 +219,8 @@
 			// imprumutatLabel
 			// 
 			this.imprumutatLabel.AutoSize = true;
-			this.imprumutatLabel.Location = new System.Drawing.Point(946, 615);
+			this.imprumutatLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.imprumutatLabel.Location = new System.Drawing.Point(973, 614);
 			this.imprumutatLabel.Name = "imprumutatLabel";
 			this.imprumutatLabel.Size = new System.Drawing.Size(18, 20);
 			this.imprumutatLabel.TabIndex = 18;
@@ -203,7 +228,8 @@
 			// 
 			// imprumutataTextBox
 			// 
-			this.imprumutataTextBox.Location = new System.Drawing.Point(971, 611);
+			this.imprumutataTextBox.BackColor = System.Drawing.Color.AliceBlue;
+			this.imprumutataTextBox.Location = new System.Drawing.Point(998, 610);
 			this.imprumutataTextBox.Name = "imprumutataTextBox";
 			this.imprumutataTextBox.Size = new System.Drawing.Size(66, 26);
 			this.imprumutataTextBox.TabIndex = 19;
@@ -211,7 +237,7 @@
 			// imprumutataCheckBox
 			// 
 			this.imprumutataCheckBox.AutoSize = true;
-			this.imprumutataCheckBox.Location = new System.Drawing.Point(1044, 612);
+			this.imprumutataCheckBox.Location = new System.Drawing.Point(1071, 611);
 			this.imprumutataCheckBox.Name = "imprumutataCheckBox";
 			this.imprumutataCheckBox.Size = new System.Drawing.Size(22, 21);
 			this.imprumutataCheckBox.TabIndex = 20;
@@ -236,12 +262,40 @@
 			// necititeCheckBox
 			// 
 			this.necititeCheckBox.AutoSize = true;
-			this.necititeCheckBox.Location = new System.Drawing.Point(761, 612);
+			this.necititeCheckBox.Location = new System.Drawing.Point(761, 613);
 			this.necititeCheckBox.Name = "necititeCheckBox";
 			this.necititeCheckBox.Size = new System.Drawing.Size(22, 21);
 			this.necititeCheckBox.TabIndex = 21;
 			this.necititeCheckBox.UseVisualStyleBackColor = true;
 			this.necititeCheckBox.CheckedChanged += new System.EventHandler(this.necititeCheckBox_CheckedChanged);
+			// 
+			// cuAutografCheckBox
+			// 
+			this.cuAutografCheckBox.AutoSize = true;
+			this.cuAutografCheckBox.Location = new System.Drawing.Point(920, 612);
+			this.cuAutografCheckBox.Name = "cuAutografCheckBox";
+			this.cuAutografCheckBox.Size = new System.Drawing.Size(22, 21);
+			this.cuAutografCheckBox.TabIndex = 22;
+			this.cuAutografCheckBox.UseVisualStyleBackColor = true;
+			this.cuAutografCheckBox.CheckedChanged += new System.EventHandler(this.cuAutografCheckBox_CheckedChanged);
+			// 
+			// toolStrip1
+			// 
+			this.toolStrip1.Dock = System.Windows.Forms.DockStyle.Bottom;
+			this.toolStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+			this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripProgressBar});
+			this.toolStrip1.Location = new System.Drawing.Point(0, 1012);
+			this.toolStrip1.Name = "toolStrip1";
+			this.toolStrip1.Size = new System.Drawing.Size(1478, 38);
+			this.toolStrip1.TabIndex = 23;
+			this.toolStrip1.Text = "toolStrip1";
+			// 
+			// toolStripProgressBar
+			// 
+			this.toolStripProgressBar.Maximum = 1;
+			this.toolStripProgressBar.Name = "toolStripProgressBar";
+			this.toolStripProgressBar.Size = new System.Drawing.Size(800, 33);
 			// 
 			// Form1
 			// 
@@ -249,6 +303,8 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.White;
 			this.ClientSize = new System.Drawing.Size(1478, 1050);
+			this.Controls.Add(this.toolStrip1);
+			this.Controls.Add(this.cuAutografCheckBox);
 			this.Controls.Add(this.necititeCheckBox);
 			this.Controls.Add(this.imprumutataCheckBox);
 			this.Controls.Add(this.imprumutataTextBox);
@@ -268,6 +324,8 @@
 			this.Controls.Add(this.titluCartiPictureBox);
 			this.Controls.Add(this.raftCartiPictureBox);
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+			this.MaximizeBox = false;
+			this.MinimizeBox = false;
 			this.Name = "Form1";
 			this.Text = "BookBuzland";
 			this.Load += new System.EventHandler(this.Form1_Load);
@@ -277,6 +335,8 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
 			this.contextMenuStrip1.ResumeLayout(false);
+			this.toolStrip1.ResumeLayout(false);
+			this.toolStrip1.PerformLayout();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -304,6 +364,9 @@
 		private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
 		private System.Windows.Forms.ToolStripMenuItem deleteRowToolStripMenuItem;
 		private System.Windows.Forms.CheckBox necititeCheckBox;
+		private System.Windows.Forms.CheckBox cuAutografCheckBox;
+		private System.Windows.Forms.ToolStrip toolStrip1;
+		private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar;
 	}
 }
 

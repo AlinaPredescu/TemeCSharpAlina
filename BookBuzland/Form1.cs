@@ -63,10 +63,10 @@ namespace BookBuzland
 			biblioteca.Carti = (List<Carte>)xml.Deserialize(streamReader);
 			streamReader.Close();
 			dataGridView.DataSource = biblioteca.Carti;
-		
 
 //afisare numar total carti
 			totalCartiTextBox.Text = dataGridView.Rows.Count.ToString();
+			int totalCarti = dataGridView.Rows.Count;
 
 //afisare nr carti citite
 			int nrCartiCitite = 0;
@@ -103,6 +103,11 @@ namespace BookBuzland
 				}
 			}
 			imprumutataTextBox.Text = nrCartiImprumutate.ToString();
+//valoare progress bar
+			
+			toolStripProgressBar.Maximum = totalCarti;
+			toolStripProgressBar.Value = nrCartiCitite;
+
 		}
 
 
@@ -161,12 +166,37 @@ namespace BookBuzland
 			if (cartiFiltrateImprumutate.Count == 0)
 			{
 				MessageBox.Show("Nu aveti carti imprumutate");
+				imprumutataCheckBox.Checked = false;
 			}
 			else
 			{
 				dataGridView.DataSource = cartiFiltrateImprumutate;
 			}
 		
+		}
+
+//afisare carti cu autograf
+		private void cuAutografCheckBox_CheckedChanged(object sender, EventArgs e)
+		{
+			BindingList<Carte> cartiFiltrateCuAutograf = new BindingList<Carte>();
+
+			foreach (Carte carte3 in biblioteca.Carti)
+			{
+				if (carte3.CuAutograf == true || cuAutografCheckBox.Checked == false)
+				{
+					cartiFiltrateCuAutograf.Add(carte3);
+				}
+			}
+
+			if (cartiFiltrateCuAutograf.Count == 0)
+			{
+				MessageBox.Show("Nu aveti carti cu autograf");
+				cuAutografCheckBox.Checked = false;
+			}
+			else
+			{
+				dataGridView.DataSource = cartiFiltrateCuAutograf;
+			}
 		}
 
 //afisare necitite
@@ -186,6 +216,7 @@ namespace BookBuzland
 			if (CartiNecitite.Count == 0)
 			{
 				MessageBox.Show("Nu aveti carti necitite");
+				necititeCheckBox.Checked = false;
 			}
 			else
 			{
@@ -193,7 +224,7 @@ namespace BookBuzland
 			}
 		}
 
-		//sterge carte
+//sterge carte
 
 		private int rowIndex = 0;
 		private void dataGridView_CellMouseUp(object sender, DataGridViewCellMouseEventArgs e)
@@ -209,7 +240,6 @@ namespace BookBuzland
 			}
 		}
 				
-
 		private void contextMenuStrip1_Click_1(object sender, EventArgs e)
 		{
 			if (!this.dataGridView.Rows[this.rowIndex].IsNewRow)
@@ -219,6 +249,5 @@ namespace BookBuzland
 				dataGridView_CellValueChanged(null, null);
 			}
 		}
-
 	}
 }

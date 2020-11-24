@@ -3,48 +3,48 @@
   <Carte>
     <Titlu>carte1</Titlu>
     <Autor>alina</Autor>
-    <AnAparitie>1999</AnAparitie>
-    <Tip>jurnal</Tip>
-    <Citita>false</Citita>
-    <CuAutograf>false</CuAutograf>
-    <Imprumutata>true</Imprumutata>
-    <Comentarii />
+    <AnAparitie>2000</AnAparitie>
+    <Tip>dezvoltare personala</Tip>
+    <Citita>true</Citita>
+    <CuAutograf>true</CuAutograf>
+    <Imprumutata>false</Imprumutata>
+    <Comentarii>prima carte introdusa in aplicatie</Comentarii>
   </Carte>
   <Carte>
     <Titlu>carte2</Titlu>
-    <Autor>Alina</Autor>
-    <AnAparitie>2019</AnAparitie>
-    <Tip>poezie</Tip>
-    <Citita>false</Citita>
-    <CuAutograf>true</CuAutograf>
+    <Autor>necunoscut</Autor>
+    <AnAparitie>1999</AnAparitie>
+    <Tip>fictiune</Tip>
+    <Citita>true</Citita>
+    <CuAutograf>false</CuAutograf>
     <Imprumutata>true</Imprumutata>
-    <Comentarii>alina</Comentarii>
+    <Comentarii>nu stiu cine a scris-o si din ce an este</Comentarii>
   </Carte>
   <Carte>
     <Titlu>carte3</Titlu>
-    <Autor>raluca</Autor>
-    <AnAparitie>1984</AnAparitie>
-    <Tip>Psihologie</Tip>
+    <Autor>alina ioana</Autor>
+    <AnAparitie>2020</AnAparitie>
+    <Tip>dezvoltare personala</Tip>
     <Citita>false</Citita>
     <CuAutograf>true</CuAutograf>
     <Imprumutata>false</Imprumutata>
-    <Comentarii>raluca predescu este nascuta in 1984</Comentarii>
+    <Comentarii />
   </Carte>
   <Carte>
     <Titlu>carte4</Titlu>
-    <Autor>necunoscut</Autor>
-    <AnAparitie>1888</AnAparitie>
-    <Tip />
+    <Autor>predescu</Autor>
+    <AnAparitie>2000</AnAparitie>
+    <Tip>economie</Tip>
     <Citita>false</Citita>
-    <CuAutograf>false</CuAutograf>
+    <CuAutograf>true</CuAutograf>
     <Imprumutata>false</Imprumutata>
     <Comentarii />
   </Carte>
   <Carte>
     <Titlu>carte5</Titlu>
-    <Autor>elena</Autor>
-    <AnAparitie>2000</AnAparitie>
-    <Tip>Economie</Tip>
+    <Autor>necunoscut</Autor>
+    <AnAparitie xsi:nil="true" />
+    <Tip>manuale/Dictionare</Tip>
     <Citita>true</Citita>
     <CuAutograf>false</CuAutograf>
     <Imprumutata>true</Imprumutata>
@@ -52,61 +52,21 @@
   </Carte>
   <Carte>
     <Titlu>carte6</Titlu>
-    <Autor>florin</Autor>
-    <AnAparitie>1999</AnAparitie>
-    <Tip>Altele</Tip>
+    <Autor>ioana</Autor>
+    <AnAparitie>1998</AnAparitie>
+    <Tip>economie</Tip>
     <Citita>true</Citita>
     <CuAutograf>false</CuAutograf>
-    <Imprumutata>true</Imprumutata>
-    <Comentarii>alina</Comentarii>
+    <Imprumutata>false</Imprumutata>
+    <Comentarii />
   </Carte>
   <Carte>
     <Titlu>carte7</Titlu>
     <Autor>necunoscut</Autor>
-    <AnAparitie>1900</AnAparitie>
-    <Tip>Economie</Tip>
-    <Citita>true</Citita>
-    <CuAutograf>false</CuAutograf>
-    <Imprumutata>true</Imprumutata>
-    <Comentarii />
-  </Carte>
-  <Carte>
-    <Titlu>carte8</Titlu>
-    <Autor>alina</Autor>
-    <AnAparitie>1999</AnAparitie>
-    <Tip>Jurnal</Tip>
+    <AnAparitie>2000</AnAparitie>
+    <Tip>jurnal</Tip>
     <Citita>true</Citita>
     <CuAutograf>true</CuAutograf>
-    <Imprumutata>true</Imprumutata>
-    <Comentarii />
-  </Carte>
-  <Carte>
-    <Titlu>carte9</Titlu>
-    <Autor>ioana</Autor>
-    <AnAparitie>1998</AnAparitie>
-    <Tip>Psihologie</Tip>
-    <Citita>true</Citita>
-    <CuAutograf>false</CuAutograf>
-    <Imprumutata>true</Imprumutata>
-    <Comentarii />
-  </Carte>
-  <Carte>
-    <Titlu>carte10</Titlu>
-    <Autor>necunoscut</Autor>
-    <AnAparitie>1100</AnAparitie>
-    <Tip>Economie</Tip>
-    <Citita>true</Citita>
-    <CuAutograf>false</CuAutograf>
-    <Imprumutata>false</Imprumutata>
-    <Comentarii>oare cine este autorul necunoscut?</Comentarii>
-  </Carte>
-  <Carte>
-    <Titlu>carte11</Titlu>
-    <Autor>necunoscut</Autor>
-    <AnAparitie>1900</AnAparitie>
-    <Tip>Manuale/Dictionare</Tip>
-    <Citita>false</Citita>
-    <CuAutograf>false</CuAutograf>
     <Imprumutata>false</Imprumutata>
     <Comentarii />
   </Carte>

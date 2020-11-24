@@ -226,6 +226,8 @@
 			// 
 			// carteAdaugataButton
 			// 
+			this.carteAdaugataButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.carteAdaugataButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.carteAdaugataButton.Location = new System.Drawing.Point(282, 432);
 			this.carteAdaugataButton.Name = "carteAdaugataButton";
 			this.carteAdaugataButton.Size = new System.Drawing.Size(109, 50);
@@ -236,6 +238,7 @@
 			// 
 			// anuleazaButton
 			// 
+			this.anuleazaButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.anuleazaButton.Location = new System.Drawing.Point(406, 432);
 			this.anuleazaButton.Name = "anuleazaButton";
 			this.anuleazaButton.Size = new System.Drawing.Size(109, 50);
@@ -270,6 +273,8 @@
 			this.Controls.Add(this.autorLabel);
 			this.Controls.Add(this.titluLabel);
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+			this.MaximizeBox = false;
+			this.MinimizeBox = false;
 			this.Name = "frmAdaugaCarte";
 			this.Text = "AdaugaCarte";
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
