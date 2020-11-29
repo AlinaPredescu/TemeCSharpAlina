@@ -42,11 +42,13 @@ namespace BookBuzland
 				{
 					string titlu = titluTextBox.Text;
 					string autor = autorTextBox.Text;
-					
+
 					int? anAparitie=null;
+			
 				try
 				{
 					anAparitie = int.Parse(anAparitieTextBox.Text);
+					
 				}
 
 				catch (Exception)

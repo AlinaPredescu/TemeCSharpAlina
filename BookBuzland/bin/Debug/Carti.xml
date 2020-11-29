@@ -3,7 +3,7 @@
   <Carte>
     <Titlu>carte1</Titlu>
     <Autor>alina</Autor>
-    <AnAparitie>2000</AnAparitie>
+    <AnAparitie>1999</AnAparitie>
     <Tip>dezvoltare personala</Tip>
     <Citita>true</Citita>
     <CuAutograf>true</CuAutograf>
@@ -16,7 +16,7 @@
     <AnAparitie>1999</AnAparitie>
     <Tip>fictiune</Tip>
     <Citita>true</Citita>
-    <CuAutograf>false</CuAutograf>
+    <CuAutograf>true</CuAutograf>
     <Imprumutata>true</Imprumutata>
     <Comentarii>nu stiu cine a scris-o si din ce an este</Comentarii>
   </Carte>
@@ -33,17 +33,17 @@
   <Carte>
     <Titlu>carte4</Titlu>
     <Autor>predescu</Autor>
-    <AnAparitie>2000</AnAparitie>
+    <AnAparitie xsi:nil="true" />
     <Tip>economie</Tip>
     <Citita>false</Citita>
-    <CuAutograf>true</CuAutograf>
-    <Imprumutata>false</Imprumutata>
+    <CuAutograf>false</CuAutograf>
+    <Imprumutata>true</Imprumutata>
     <Comentarii />
   </Carte>
   <Carte>
     <Titlu>carte5</Titlu>
     <Autor>necunoscut</Autor>
-    <AnAparitie xsi:nil="true" />
+    <AnAparitie>1990</AnAparitie>
     <Tip>manuale/Dictionare</Tip>
     <Citita>true</Citita>
     <CuAutograf>false</CuAutograf>
@@ -69,5 +69,15 @@
     <CuAutograf>true</CuAutograf>
     <Imprumutata>false</Imprumutata>
     <Comentarii />
+  </Carte>
+  <Carte>
+    <Titlu>carte8</Titlu>
+    <Autor>necunoscut</Autor>
+    <AnAparitie>1800</AnAparitie>
+    <Tip>dezvoltare personala</Tip>
+    <Citita>true</Citita>
+    <CuAutograf>true</CuAutograf>
+    <Imprumutata>true</Imprumutata>
+    <Comentarii>rtfg</Comentarii>
   </Carte>
 </ArrayOfCarte>
